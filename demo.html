@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>fullPage.js - Pure Javascript version</title>
+    <link rel="stylesheet" type="text/css" href="./team/css/teamcss.css">
+    <link rel="stylesheet" type="text/css" href="./lib/javascript.fullPage.css" />
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="section " id="section0">
+            <div class="content">
+                <div class="page1">
+                    <div class="daohang bottomsolid">
+                        <h1 class="mylogo juzhong biankuang"><img src="./team/img/jteam.png" height="40" width="auto" alt=""></h1>
+                        <div class="right juzhong">
+                            <ul>
+                                <li>
+                                    <a href=""></a>
+                                </li>
+                                <li><a href="">jiang2</a></li>
+                                <li><a href="">jiang3</a></li>
+                                <li><a href="">jiang4</a></li>
+                                <li><a href="">jiang5</a></li>
+                                <li><a href="">jiang6</a></li>
+                                <li><a href="" class="hire">jiang7</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="biaoti">
+                        <div class="biaoti1">we are jiang+</div>
+                        <div class="biaoti2">We provide developers you can trust, whenever you need them.</div>
+                        <div class="zhong">
+                            <p class="hire work1">
+                                work with jiang+
+                            </p>
+                            <p class="arrow">>></p>
+                            <p class="work2">learn more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section1">
+            <div class="slide" id="slide1">
+                <div class="content">
+                    <h1>No need for jQuery</h1>
+                    <p>
+                        5 Kb gzipped!!
+                    </p>
+                    <p>
+                        Improve the loading time of your site!
+                    </p>
+                </div>
+            </div>
+            <div class="slide" id="slide2">
+                <div class="content">
+                    <h1>Slides too!</h1>
+                </div>
+            </div>
+            <div class="slide" id="slide2">
+                <div class="content">
+                    <h1>More slides!</h1>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="content">
+                <h1>Compatible</h1>
+                <p>IE 8+ support.</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./lib/javascript.fullPage.js"></script>
+    <script type="text/javascript">
+    fullpage.initialize('#fullpage', {
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+        menu: '#menu',
+        css3: true
+    });
+    </script>
+</body>
+
+</html>
